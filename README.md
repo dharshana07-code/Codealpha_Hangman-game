@@ -10,14 +10,14 @@ This project was developed as part of the **CodeAlpha Python Programming Interns
 
 ## 🚀 Features
 
-- 🎲 Random word selection
-- 💡 One-time hint for each word
-- 🔤 Letter-by-letter guessing
-- ✅ Input validation
-- 📋 Displays previously guessed letters
-- ❤️ Maximum of 6 incorrect attempts
-- 🔄 Play Again option
-- 🏆 Win and Lose messages
+-  Random word selection
+-  One-time hint for each word
+-  Letter-by-letter guessing
+-  Input validation
+-  Displays previously guessed letters
+-  Maximum of 6 incorrect attempts
+-  Play Again option
+-  Win and Lose messages
 
 ---
 
@@ -81,7 +81,7 @@ Enter a letter:
 
 ## 👩‍💻 Author
 
-**Dharshana Devaraj**
+**Dharshana D**
 
 Python Programming Intern – CodeAlpha
 
