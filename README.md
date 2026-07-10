@@ -1,6 +1,6 @@
 # 🎮 Hangman Game
 
-## 📌 Project Overview
+## Project Overview
 
 Hangman Game is a simple text-based word guessing game developed using Python. The game randomly selects a word, and the player has to guess it one letter at a time within a limited number of incorrect attempts.
 
