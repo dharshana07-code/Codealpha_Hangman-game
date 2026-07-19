@@ -41,29 +41,6 @@ The chatbot continues the conversation until the user enters **"bye"**, making i
 
 ---
 
-## 🚀 How to Run the Project
-
-### 1️⃣ Install Python
-Download and install Python from the official website.
-
-### 2️⃣ Save the Program
-Save the source code as:
-
-```
-chatbot.py
-```
-
-### 3️⃣ Open Terminal / Command Prompt
-
-Navigate to the folder containing the file.
-
-### 4️⃣ Run the Program
-
-```bash
-python chatbot.py
-```
-
----
 
 ## 💻 Sample Interaction
 
@@ -131,10 +108,6 @@ Through this project, I learned how to:
 **Dharshana D**
 Python Programming Learner 
 
-## 📄 License
-
-This project was created for learning purposes and as part of a Python programming project. Feel free to use and modify it for educational purposes.
----
 
 ## 📄 License
 
