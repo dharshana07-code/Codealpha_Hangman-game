@@ -1,90 +1,139 @@
-# 🎮 Hangman Game
+# 🤖 Basic Rule-Based Chatbot
 
-## Project Overview
-
-Hangman Game is a simple text-based word guessing game developed using Python. The game randomly selects a word, and the player has to guess it one letter at a time within a limited number of incorrect attempts.
-
-This project was developed as part of the **CodeAlpha Python Programming Internship** to demonstrate the use of Python fundamentals such as loops, functions, lists, dictionaries, strings, and conditional statements.
+A beginner-friendly chatbot built using **Python** that responds to predefined user inputs using simple **if-elif** conditions. This project demonstrates the fundamentals of Python programming, including functions, loops, conditional statements, and user interaction.
 
 ---
 
-## 🚀 Features
+## 📖 Project Overview
 
--  Random word selection
--  One-time hint for each word
--  Letter-by-letter guessing
--  Input validation
--  Displays previously guessed letters
--  Maximum of 6 incorrect attempts
--  Play Again option
--  Win and Lose messages
+The **Basic Rule-Based Chatbot** is a text-based conversational program that interacts with users by recognizing specific inputs and replying with predefined responses.
+
+The chatbot continues the conversation until the user enters **"bye"**, making it a simple yet interactive project for beginners learning Python.
+
+---
+
+## ✨ Features
+
+- 👋 Greets the user.
+- 💬 Responds to common questions.
+- 🔄 Runs continuously until the user exits.
+- 🔤 Accepts input regardless of uppercase or lowercase letters.
+- ❓ Displays a default message for unknown inputs.
+- 👋 Ends the conversation when the user types **bye**.
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python 3
-- Random Module
 
 ---
 
 ## 📚 Python Concepts Used
 
 - Functions
-- Loops (`while`, `for`)
-- Conditional Statements (`if-else`)
-- Lists
-- Dictionaries
-- Strings
-- User Input
-- Random Module
----
-
-## 🎮 How to Play
-
-1. The game randomly selects a word.
-2. The player guesses one letter at a time.
-3. Enter **?** to use a one-time hint.
-4. Correct guesses reveal the letters.
-5. Incorrect guesses reduce the remaining attempts.
-6. Guess the complete word before all 6 attempts are used.
+- While Loop
+- If-Else Statements
+- User Input (`input()`)
+- Output (`print()`)
+- String Methods (`lower()`)
+- Break Statement
 
 ---
 
-## 📸 Sample Output
+## 🚀 How to Run the Project
+
+### 1️⃣ Install Python
+Download and install Python from the official website.
+
+### 2️⃣ Save the Program
+Save the source code as:
 
 ```
-========================================
-        HANGMAN GAME
-========================================
+chatbot.py
+```
 
-Word:
-_ _ _ _ _ _
+### 3️⃣ Open Terminal / Command Prompt
 
-Wrong Attempts: 0 / 6
+Navigate to the folder containing the file.
 
-Enter a letter:
+### 4️⃣ Run the Program
+
+```bash
+python chatbot.py
 ```
 
 ---
 
-## 🎯 Future Improvements
+## 💻 Sample Interaction
 
-- Difficulty Levels (Easy, Medium, Hard)
-- Score System
-- Timer Feature
-- Categories (Animals, Fruits, Programming, etc.)
-- ASCII Hangman Animation
-- Leaderboard
+```text
+🤖 Chatbot: Hello! I am your chatbot.
+Type 'bye' to end the chat.
+
+You: hello
+Chatbot: Hi!
+
+You: how are you
+Chatbot: I'm fine, thanks!
+
+You: what is your name
+Chatbot: My name is Chatbot.
+
+You: who created you
+Chatbot: I was created using Python.
+
+You: bye
+Chatbot: Goodbye! Have a nice day!
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Basic-Chatbot/
+│
+├── chatbot.py
+└── README.md
+```
+
+---
+
+## 🌟 Future Improvements
+
+Here are a few ideas to enhance this project:
+
+- 🧠 Add more predefined questions and responses.
+- 📖 Store responses using a dictionary.
+- 🕒 Add date and time responses.
+- 😊 Include emojis and personalized greetings.
+- 🎤 Add voice input and speech output.
+- 🖥️ Develop a graphical user interface (GUI) using Tkinter.
+- 🤖 Upgrade to an AI-powered chatbot using Natural Language Processing (NLP).
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned how to:
+
+- Write reusable functions.
+- Use loops for continuous interaction.
+- Apply conditional statements to make decisions.
+- Handle user input efficiently.
+- Build a simple console-based application.
 
 ---
 
 ## 👩‍💻 Author
 
 **Dharshana D**
+Python Programming Learner 
 
-Python Programming Intern – CodeAlpha
+## 📄 License
 
+This project was created for learning purposes and as part of a Python programming project. Feel free to use and modify it for educational purposes.
 ---
 
 ## 📄 License
